@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../dist/Fraction.js"></script>
+    <script src="../dist/Complex.js"></script>
+    <script src="../dist/Matrix.js"></script>
+    <script src="../dist/Expression.js"></script>
+
+    <script>
+        let f = new Fraction(4,5)
+        let g  = new Fraction(45,456)
+        let h = new Fraction(9,3)
+        let i = new Fraction(32,123)
+
+        let sample  = [f.stringify(),h.stringify(),g.stringify(),i.stringify()]
+        for(let i of sample){
+            console.log(i)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
